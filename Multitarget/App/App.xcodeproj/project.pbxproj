@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3E47E5724C9A9980054D716 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E5624C9A9980054D716 /* AppDelegate.m */; };
+		B3E47E5A24C9A9980054D716 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E5924C9A9980054D716 /* SceneDelegate.m */; };
+		B3E47E5D24C9A9980054D716 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E5C24C9A9980054D716 /* LoginViewController.m */; };
+		B3E47E6024C9A9980054D716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E5E24C9A9980054D716 /* Main.storyboard */; };
+		B3E47E6224C9A9A10054D716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E6124C9A9A10054D716 /* Assets.xcassets */; };
+		B3E47E6524C9A9A10054D716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E6324C9A9A10054D716 /* LaunchScreen.storyboard */; };
+		B3E47E6824C9A9A10054D716 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E6724C9A9A10054D716 /* main.m */; };
+		B3E47E8024C9AA0C0054D716 /* FontFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7324C9AA0C0054D716 /* FontFactory.m */; };
+		B3E47E8124C9AA0C0054D716 /* TargetAFontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7824C9AA0C0054D716 /* TargetAFontNames.m */; };
+		B3E47E8224C9AA0C0054D716 /* TargetBFontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7924C9AA0C0054D716 /* TargetBFontNames.m */; };
+		B3E47E8324C9AA0C0054D716 /* AppFontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7A24C9AA0C0054D716 /* AppFontNames.m */; };
+		B3E47E8424C9AA0C0054D716 /* CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7D24C9AA0C0054D716 /* CustomFont.m */; };
+		B3E47E8524C9AA0C0054D716 /* UIFont+AppFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7E24C9AA0C0054D716 /* UIFont+AppFonts.m */; };
+		B3E47E8B24C9AA2B0054D716 /* AppLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E8824C9AA2B0054D716 /* AppLabel.m */; };
+		B3E47E8C24C9AA2B0054D716 /* AppButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E8A24C9AA2B0054D716 /* AppButton.m */; };
+		B3E47E9D24C9AAE70054D716 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9024C9AAE70054D716 /* Roboto-Medium.ttf */; };
+		B3E47E9E24C9AAE70054D716 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9124C9AAE70054D716 /* Roboto-Light.ttf */; };
+		B3E47E9F24C9AAE70054D716 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9224C9AAE70054D716 /* Roboto-Regular.ttf */; };
+		B3E47EA024C9AAE70054D716 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9324C9AAE70054D716 /* Roboto-MediumItalic.ttf */; };
+		B3E47EA124C9AAE70054D716 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9424C9AAE70054D716 /* Roboto-ThinItalic.ttf */; };
+		B3E47EA224C9AAE70054D716 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9524C9AAE70054D716 /* Roboto-BoldItalic.ttf */; };
+		B3E47EA324C9AAE70054D716 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9624C9AAE70054D716 /* Roboto-LightItalic.ttf */; };
+		B3E47EA424C9AAE70054D716 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9724C9AAE70054D716 /* Roboto-Italic.ttf */; };
+		B3E47EA524C9AAE70054D716 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9824C9AAE70054D716 /* LICENSE.txt */; };
+		B3E47EA624C9AAE70054D716 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9924C9AAE70054D716 /* Roboto-BlackItalic.ttf */; };
+		B3E47EA724C9AAE70054D716 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9A24C9AAE70054D716 /* Roboto-Bold.ttf */; };
+		B3E47EA824C9AAE70054D716 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9B24C9AAE70054D716 /* Roboto-Thin.ttf */; };
+		B3E47EA924C9AAE70054D716 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E9C24C9AAE70054D716 /* Roboto-Black.ttf */; };
+		B3E47EAD24C9B02E0054D716 /* AppTextFeild.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47EAC24C9B02E0054D716 /* AppTextFeild.m */; };
+		B3E47EB024C9B42F0054D716 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E5C24C9A9980054D716 /* LoginViewController.m */; };
+		B3E47EB124C9B42F0054D716 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E5624C9A9980054D716 /* AppDelegate.m */; };
+		B3E47EB224C9B42F0054D716 /* TargetBFontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7924C9AA0C0054D716 /* TargetBFontNames.m */; };
+		B3E47EB324C9B42F0054D716 /* TargetAFontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7824C9AA0C0054D716 /* TargetAFontNames.m */; };
+		B3E47EB424C9B42F0054D716 /* FontFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7324C9AA0C0054D716 /* FontFactory.m */; };
+		B3E47EB524C9B42F0054D716 /* AppFontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7A24C9AA0C0054D716 /* AppFontNames.m */; };
+		B3E47EB624C9B42F0054D716 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E6724C9A9A10054D716 /* main.m */; };
+		B3E47EB724C9B42F0054D716 /* AppTextFeild.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47EAC24C9B02E0054D716 /* AppTextFeild.m */; };
+		B3E47EB824C9B42F0054D716 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E5924C9A9980054D716 /* SceneDelegate.m */; };
+		B3E47EB924C9B42F0054D716 /* CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7D24C9AA0C0054D716 /* CustomFont.m */; };
+		B3E47EBA24C9B42F0054D716 /* AppLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E8824C9AA2B0054D716 /* AppLabel.m */; };
+		B3E47EBB24C9B42F0054D716 /* UIFont+AppFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E7E24C9AA0C0054D716 /* UIFont+AppFonts.m */; };
+		B3E47EBC24C9B42F0054D716 /* AppButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E47E8A24C9AA2B0054D716 /* AppButton.m */; };
+		B3E47EC524C9B42F0054D716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E6324C9A9A10054D716 /* LaunchScreen.storyboard */; };
+		B3E47ECC24C9B42F0054D716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E6124C9A9A10054D716 /* Assets.xcassets */; };
+		B3E47ECE24C9B42F0054D716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E47E5E24C9A9980054D716 /* Main.storyboard */; };
+		B3E47EE024C9B9AB0054D716 /* TargetB-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3E47EDF24C9B9AB0054D716 /* TargetB-Info.plist */; };
+		B3E47EE124C9BA910054D716 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47ED824C9B77B0054D716 /* Montserrat-Black.otf */; };
+		B3E47EE224C9BA910054D716 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47EDB24C9B77C0054D716 /* Montserrat-Bold.otf */; };
+		B3E47EE324C9BA910054D716 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47ED924C9B77B0054D716 /* Montserrat-ExtraBold.otf */; };
+		B3E47EE424C9BA910054D716 /* Montserrat-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47ED724C9B77B0054D716 /* Montserrat-Hairline.otf */; };
+		B3E47EE524C9BA910054D716 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47EDC24C9B77C0054D716 /* Montserrat-Light.otf */; };
+		B3E47EE624C9BA910054D716 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47EDA24C9B77B0054D716 /* Montserrat-Medium.ttf */; };
+		B3E47EE724C9BA910054D716 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47EDD24C9B77C0054D716 /* Montserrat-Regular.otf */; };
+		B3E47EE824C9BA910054D716 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47ED624C9B77B0054D716 /* Montserrat-SemiBold.otf */; };
+		B3E47EE924C9BA910054D716 /* Montserrat-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3E47ED524C9B77A0054D716 /* Montserrat-UltraLight.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3E47E5224C9A9980054D716 /* TargetA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E47E5524C9A9980054D716 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3E47E5624C9A9980054D716 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3E47E5824C9A9980054D716 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B3E47E5924C9A9980054D716 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B3E47E5B24C9A9980054D716 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B3E47E5C24C9A9980054D716 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B3E47E5F24C9A9980054D716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3E47E6124C9A9A10054D716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3E47E6424C9A9A10054D716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3E47E6624C9A9A10054D716 /* TargetA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TargetA-Info.plist"; sourceTree = "<group>"; };
+		B3E47E6724C9A9A10054D716 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3E47E7224C9AA0C0054D716 /* FontFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontFactory.h; sourceTree = "<group>"; };
+		B3E47E7324C9AA0C0054D716 /* FontFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontFactory.m; sourceTree = "<group>"; };
+		B3E47E7524C9AA0C0054D716 /* TargetBFontNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetBFontNames.h; sourceTree = "<group>"; };
+		B3E47E7624C9AA0C0054D716 /* AppFontNamesProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppFontNamesProtocol.h; sourceTree = "<group>"; };
+		B3E47E7724C9AA0C0054D716 /* AppFontNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppFontNames.h; sourceTree = "<group>"; };
+		B3E47E7824C9AA0C0054D716 /* TargetAFontNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetAFontNames.m; sourceTree = "<group>"; };
+		B3E47E7924C9AA0C0054D716 /* TargetBFontNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetBFontNames.m; sourceTree = "<group>"; };
+		B3E47E7A24C9AA0C0054D716 /* AppFontNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppFontNames.m; sourceTree = "<group>"; };
+		B3E47E7B24C9AA0C0054D716 /* TargetAFontNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetAFontNames.h; sourceTree = "<group>"; };
+		B3E47E7C24C9AA0C0054D716 /* UIFont+AppFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+AppFonts.h"; sourceTree = "<group>"; };
+		B3E47E7D24C9AA0C0054D716 /* CustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFont.m; sourceTree = "<group>"; };
+		B3E47E7E24C9AA0C0054D716 /* UIFont+AppFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AppFonts.m"; sourceTree = "<group>"; };
+		B3E47E7F24C9AA0C0054D716 /* CustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFont.h; sourceTree = "<group>"; };
+		B3E47E8724C9AA2B0054D716 /* AppButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppButton.h; sourceTree = "<group>"; };
+		B3E47E8824C9AA2B0054D716 /* AppLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLabel.m; sourceTree = "<group>"; };
+		B3E47E8924C9AA2B0054D716 /* AppLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLabel.h; sourceTree = "<group>"; };
+		B3E47E8A24C9AA2B0054D716 /* AppButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppButton.m; sourceTree = "<group>"; };
+		B3E47E9024C9AAE70054D716 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		B3E47E9124C9AAE70054D716 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		B3E47E9224C9AAE70054D716 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B3E47E9324C9AAE70054D716 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B3E47E9424C9AAE70054D716 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B3E47E9524C9AAE70054D716 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B3E47E9624C9AAE70054D716 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		B3E47E9724C9AAE70054D716 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		B3E47E9824C9AAE70054D716 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		B3E47E9924C9AAE70054D716 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B3E47E9A24C9AAE70054D716 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		B3E47E9B24C9AAE70054D716 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		B3E47E9C24C9AAE70054D716 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		B3E47EAA24C9AEF50054D716 /* AppPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppPrefixHeader.pch; sourceTree = "<group>"; };
+		B3E47EAB24C9B02E0054D716 /* AppTextFeild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppTextFeild.h; sourceTree = "<group>"; };
+		B3E47EAC24C9B02E0054D716 /* AppTextFeild.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTextFeild.m; sourceTree = "<group>"; };
+		B3E47ED224C9B42F0054D716 /* TargetB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E47ED524C9B77A0054D716 /* Montserrat-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-UltraLight.otf"; sourceTree = "<group>"; };
+		B3E47ED624C9B77B0054D716 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		B3E47ED724C9B77B0054D716 /* Montserrat-Hairline.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Hairline.otf"; sourceTree = "<group>"; };
+		B3E47ED824C9B77B0054D716 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		B3E47ED924C9B77B0054D716 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		B3E47EDA24C9B77B0054D716 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		B3E47EDB24C9B77C0054D716 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		B3E47EDC24C9B77C0054D716 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		B3E47EDD24C9B77C0054D716 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		B3E47EDF24C9B9AB0054D716 /* TargetB-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TargetB-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3E47E4F24C9A9980054D716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E47EBD24C9B42F0054D716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3E47E4924C9A9980054D716 = {
+			isa = PBXGroup;
+			children = (
+				B3E47E5424C9A9980054D716 /* App */,
+				B3E47E5324C9A9980054D716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3E47E5324C9A9980054D716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47E5224C9A9980054D716 /* TargetA.app */,
+				B3E47ED224C9B42F0054D716 /* TargetB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E47E5424C9A9980054D716 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47E8624C9AA2B0054D716 /* CustomUIClasses */,
+				B3E47E7024C9AA0C0054D716 /* FontUtils */,
+				B3E47E6F24C9A9DC0054D716 /* AppDelegates */,
+				B3E47E6E24C9A9BD0054D716 /* Controllers */,
+				B3E47E5E24C9A9980054D716 /* Main.storyboard */,
+				B3E47E6124C9A9A10054D716 /* Assets.xcassets */,
+				B3E47E6324C9A9A10054D716 /* LaunchScreen.storyboard */,
+				B3E47E6624C9A9A10054D716 /* TargetA-Info.plist */,
+				B3E47EDF24C9B9AB0054D716 /* TargetB-Info.plist */,
+				B3E47E6724C9A9A10054D716 /* main.m */,
+				B3E47EAA24C9AEF50054D716 /* AppPrefixHeader.pch */,
+				B3E47E8D24C9AAB90054D716 /* Font */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B3E47E6E24C9A9BD0054D716 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47E5B24C9A9980054D716 /* LoginViewController.h */,
+				B3E47E5C24C9A9980054D716 /* LoginViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B3E47E6F24C9A9DC0054D716 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47E5524C9A9980054D716 /* AppDelegate.h */,
+				B3E47E5624C9A9980054D716 /* AppDelegate.m */,
+				B3E47E5824C9A9980054D716 /* SceneDelegate.h */,
+				B3E47E5924C9A9980054D716 /* SceneDelegate.m */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		B3E47E7024C9AA0C0054D716 /* FontUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47E7124C9AA0C0054D716 /* FontFactory */,
+				B3E47E7F24C9AA0C0054D716 /* CustomFont.h */,
+				B3E47E7D24C9AA0C0054D716 /* CustomFont.m */,
+				B3E47E7C24C9AA0C0054D716 /* UIFont+AppFonts.h */,
+				B3E47E7E24C9AA0C0054D716 /* UIFont+AppFonts.m */,
+			);
+			path = FontUtils;
+			sourceTree = "<group>";
+		};
+		B3E47E7124C9AA0C0054D716 /* FontFactory */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47E7224C9AA0C0054D716 /* FontFactory.h */,
+				B3E47E7324C9AA0C0054D716 /* FontFactory.m */,
+				B3E47E7424C9AA0C0054D716 /* Font */,
+			);
+			path = FontFactory;
+			sourceTree = "<group>";
+		};
+		B3E47E7424C9AA0C0054D716 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47E7624C9AA0C0054D716 /* AppFontNamesProtocol.h */,
+				B3E47E7724C9AA0C0054D716 /* AppFontNames.h */,
+				B3E47E7A24C9AA0C0054D716 /* AppFontNames.m */,
+				B3E47E7B24C9AA0C0054D716 /* TargetAFontNames.h */,
+				B3E47E7824C9AA0C0054D716 /* TargetAFontNames.m */,
+				B3E47E7524C9AA0C0054D716 /* TargetBFontNames.h */,
+				B3E47E7924C9AA0C0054D716 /* TargetBFontNames.m */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		B3E47E8624C9AA2B0054D716 /* CustomUIClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47E8924C9AA2B0054D716 /* AppLabel.h */,
+				B3E47E8824C9AA2B0054D716 /* AppLabel.m */,
+				B3E47E8724C9AA2B0054D716 /* AppButton.h */,
+				B3E47E8A24C9AA2B0054D716 /* AppButton.m */,
+				B3E47EAB24C9B02E0054D716 /* AppTextFeild.h */,
+				B3E47EAC24C9B02E0054D716 /* AppTextFeild.m */,
+			);
+			path = CustomUIClasses;
+			sourceTree = "<group>";
+		};
+		B3E47E8D24C9AAB90054D716 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47ED424C9B49D0054D716 /* TargetB_Font */,
+				B3E47E8E24C9AAC50054D716 /* TargetA_Font */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		B3E47E8E24C9AAC50054D716 /* TargetA_Font */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47E8F24C9AAE70054D716 /* Roboto */,
+			);
+			path = TargetA_Font;
+			sourceTree = "<group>";
+		};
+		B3E47E8F24C9AAE70054D716 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47E9024C9AAE70054D716 /* Roboto-Medium.ttf */,
+				B3E47E9124C9AAE70054D716 /* Roboto-Light.ttf */,
+				B3E47E9224C9AAE70054D716 /* Roboto-Regular.ttf */,
+				B3E47E9324C9AAE70054D716 /* Roboto-MediumItalic.ttf */,
+				B3E47E9424C9AAE70054D716 /* Roboto-ThinItalic.ttf */,
+				B3E47E9524C9AAE70054D716 /* Roboto-BoldItalic.ttf */,
+				B3E47E9624C9AAE70054D716 /* Roboto-LightItalic.ttf */,
+				B3E47E9724C9AAE70054D716 /* Roboto-Italic.ttf */,
+				B3E47E9824C9AAE70054D716 /* LICENSE.txt */,
+				B3E47E9924C9AAE70054D716 /* Roboto-BlackItalic.ttf */,
+				B3E47E9A24C9AAE70054D716 /* Roboto-Bold.ttf */,
+				B3E47E9B24C9AAE70054D716 /* Roboto-Thin.ttf */,
+				B3E47E9C24C9AAE70054D716 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		B3E47ED424C9B49D0054D716 /* TargetB_Font */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47EDE24C9B7870054D716 /* Montserrat */,
+			);
+			path = TargetB_Font;
+			sourceTree = "<group>";
+		};
+		B3E47EDE24C9B7870054D716 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				B3E47ED824C9B77B0054D716 /* Montserrat-Black.otf */,
+				B3E47EDB24C9B77C0054D716 /* Montserrat-Bold.otf */,
+				B3E47ED924C9B77B0054D716 /* Montserrat-ExtraBold.otf */,
+				B3E47ED724C9B77B0054D716 /* Montserrat-Hairline.otf */,
+				B3E47EDC24C9B77C0054D716 /* Montserrat-Light.otf */,
+				B3E47EDA24C9B77B0054D716 /* Montserrat-Medium.ttf */,
+				B3E47EDD24C9B77C0054D716 /* Montserrat-Regular.otf */,
+				B3E47ED624C9B77B0054D716 /* Montserrat-SemiBold.otf */,
+				B3E47ED524C9B77A0054D716 /* Montserrat-UltraLight.otf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3E47E5124C9A9980054D716 /* TargetA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E47E6B24C9A9A10054D716 /* Build configuration list for PBXNativeTarget "TargetA" */;
+			buildPhases = (
+				B3E47E4E24C9A9980054D716 /* Sources */,
+				B3E47E4F24C9A9980054D716 /* Frameworks */,
+				B3E47E5024C9A9980054D716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TargetA;
+			productName = App;
+			productReference = B3E47E5224C9A9980054D716 /* TargetA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3E47EAE24C9B42F0054D716 /* TargetB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E47ECF24C9B42F0054D716 /* Build configuration list for PBXNativeTarget "TargetB" */;
+			buildPhases = (
+				B3E47EAF24C9B42F0054D716 /* Sources */,
+				B3E47EBD24C9B42F0054D716 /* Frameworks */,
+				B3E47EBE24C9B42F0054D716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TargetB;
+			productName = App;
+			productReference = B3E47ED224C9B42F0054D716 /* TargetB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3E47E4A24C9A9980054D716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = prabha;
+				TargetAttributes = {
+					B3E47E5124C9A9980054D716 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = B3E47E4D24C9A9980054D716 /* Build configuration list for PBXProject "App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3E47E4924C9A9980054D716;
+			productRefGroup = B3E47E5324C9A9980054D716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3E47E5124C9A9980054D716 /* TargetA */,
+				B3E47EAE24C9B42F0054D716 /* TargetB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3E47E5024C9A9980054D716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E47EA724C9AAE70054D716 /* Roboto-Bold.ttf in Resources */,
+				B3E47EA524C9AAE70054D716 /* LICENSE.txt in Resources */,
+				B3E47EA224C9AAE70054D716 /* Roboto-BoldItalic.ttf in Resources */,
+				B3E47E9F24C9AAE70054D716 /* Roboto-Regular.ttf in Resources */,
+				B3E47EA324C9AAE70054D716 /* Roboto-LightItalic.ttf in Resources */,
+				B3E47E9D24C9AAE70054D716 /* Roboto-Medium.ttf in Resources */,
+				B3E47E6524C9A9A10054D716 /* LaunchScreen.storyboard in Resources */,
+				B3E47EA624C9AAE70054D716 /* Roboto-BlackItalic.ttf in Resources */,
+				B3E47EA824C9AAE70054D716 /* Roboto-Thin.ttf in Resources */,
+				B3E47EE024C9B9AB0054D716 /* TargetB-Info.plist in Resources */,
+				B3E47E9E24C9AAE70054D716 /* Roboto-Light.ttf in Resources */,
+				B3E47EA124C9AAE70054D716 /* Roboto-ThinItalic.ttf in Resources */,
+				B3E47EA924C9AAE70054D716 /* Roboto-Black.ttf in Resources */,
+				B3E47EA024C9AAE70054D716 /* Roboto-MediumItalic.ttf in Resources */,
+				B3E47E6224C9A9A10054D716 /* Assets.xcassets in Resources */,
+				B3E47EA424C9AAE70054D716 /* Roboto-Italic.ttf in Resources */,
+				B3E47E6024C9A9980054D716 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E47EBE24C9B42F0054D716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E47EE324C9BA910054D716 /* Montserrat-ExtraBold.otf in Resources */,
+				B3E47EE224C9BA910054D716 /* Montserrat-Bold.otf in Resources */,
+				B3E47EE424C9BA910054D716 /* Montserrat-Hairline.otf in Resources */,
+				B3E47EE724C9BA910054D716 /* Montserrat-Regular.otf in Resources */,
+				B3E47EE924C9BA910054D716 /* Montserrat-UltraLight.otf in Resources */,
+				B3E47EE124C9BA910054D716 /* Montserrat-Black.otf in Resources */,
+				B3E47EC524C9B42F0054D716 /* LaunchScreen.storyboard in Resources */,
+				B3E47ECC24C9B42F0054D716 /* Assets.xcassets in Resources */,
+				B3E47EE824C9BA910054D716 /* Montserrat-SemiBold.otf in Resources */,
+				B3E47ECE24C9B42F0054D716 /* Main.storyboard in Resources */,
+				B3E47EE624C9BA910054D716 /* Montserrat-Medium.ttf in Resources */,
+				B3E47EE524C9BA910054D716 /* Montserrat-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3E47E4E24C9A9980054D716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E47E5D24C9A9980054D716 /* LoginViewController.m in Sources */,
+				B3E47E5724C9A9980054D716 /* AppDelegate.m in Sources */,
+				B3E47E8224C9AA0C0054D716 /* TargetBFontNames.m in Sources */,
+				B3E47E8124C9AA0C0054D716 /* TargetAFontNames.m in Sources */,
+				B3E47E8024C9AA0C0054D716 /* FontFactory.m in Sources */,
+				B3E47E8324C9AA0C0054D716 /* AppFontNames.m in Sources */,
+				B3E47E6824C9A9A10054D716 /* main.m in Sources */,
+				B3E47EAD24C9B02E0054D716 /* AppTextFeild.m in Sources */,
+				B3E47E5A24C9A9980054D716 /* SceneDelegate.m in Sources */,
+				B3E47E8424C9AA0C0054D716 /* CustomFont.m in Sources */,
+				B3E47E8B24C9AA2B0054D716 /* AppLabel.m in Sources */,
+				B3E47E8524C9AA0C0054D716 /* UIFont+AppFonts.m in Sources */,
+				B3E47E8C24C9AA2B0054D716 /* AppButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E47EAF24C9B42F0054D716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E47EB024C9B42F0054D716 /* LoginViewController.m in Sources */,
+				B3E47EB124C9B42F0054D716 /* AppDelegate.m in Sources */,
+				B3E47EB224C9B42F0054D716 /* TargetBFontNames.m in Sources */,
+				B3E47EB324C9B42F0054D716 /* TargetAFontNames.m in Sources */,
+				B3E47EB424C9B42F0054D716 /* FontFactory.m in Sources */,
+				B3E47EB524C9B42F0054D716 /* AppFontNames.m in Sources */,
+				B3E47EB624C9B42F0054D716 /* main.m in Sources */,
+				B3E47EB724C9B42F0054D716 /* AppTextFeild.m in Sources */,
+				B3E47EB824C9B42F0054D716 /* SceneDelegate.m in Sources */,
+				B3E47EB924C9B42F0054D716 /* CustomFont.m in Sources */,
+				B3E47EBA24C9B42F0054D716 /* AppLabel.m in Sources */,
+				B3E47EBB24C9B42F0054D716 /* UIFont+AppFonts.m in Sources */,
+				B3E47EBC24C9B42F0054D716 /* AppButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3E47E5E24C9A9980054D716 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3E47E5F24C9A9980054D716 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3E47E6324C9A9A10054D716 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3E47E6424C9A9A10054D716 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3E47E6924C9A9A10054D716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3E47E6A24C9A9A10054D716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3E47E6C24C9A9A10054D716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M2HRTRY96;
+				GCC_PREFIX_HEADER = App/AppPrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TARGET_A=1",
+					"TARGET_B=0",
+				);
+				INFOPLIST_FILE = "App/TargetA-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sempercon.test.App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3E47E6D24C9A9A10054D716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M2HRTRY96;
+				GCC_PREFIX_HEADER = App/AppPrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_B=0",
+					"TARGET_A=1",
+				);
+				INFOPLIST_FILE = "App/TargetA-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sempercon.test.App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3E47ED024C9B42F0054D716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M2HRTRY96;
+				GCC_PREFIX_HEADER = App/AppPrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TARGET_A=0",
+					"TARGET_B=1",
+				);
+				INFOPLIST_FILE = "App/TargetB-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sempercon.test.App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3E47ED124C9B42F0054D716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M2HRTRY96;
+				GCC_PREFIX_HEADER = App/AppPrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_B=1",
+					"TARGET_A=0",
+				);
+				INFOPLIST_FILE = "App/TargetB-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sempercon.test.App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3E47E4D24C9A9980054D716 /* Build configuration list for PBXProject "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E47E6924C9A9A10054D716 /* Debug */,
+				B3E47E6A24C9A9A10054D716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E47E6B24C9A9A10054D716 /* Build configuration list for PBXNativeTarget "TargetA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E47E6C24C9A9A10054D716 /* Debug */,
+				B3E47E6D24C9A9A10054D716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E47ECF24C9B42F0054D716 /* Build configuration list for PBXNativeTarget "TargetB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E47ED024C9B42F0054D716 /* Debug */,
+				B3E47ED124C9B42F0054D716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3E47E4A24C9A9980054D716 /* Project object */;
+}
